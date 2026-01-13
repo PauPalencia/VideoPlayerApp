@@ -1,20 +1,25 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import HomeScreen from './src/screens/HomeScreen';
+import VideoScreen from './src/screens/VideoScreen';
+
+// Importar las nuevas pantallas
+import Identificacio from './src/screen/identificacio';
+import LoginScreen from "./src/screen/LoginScreen";
+import Pantalla_Formulario_Registro from "./src/screen/Pantalla_Formulario_Registro";
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Identificacio" screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="Identificacio" component={Identificacio} />
+        <Stack.Screen name="LoginScreen" component={LoginScreen} />
+        <Stack.Screen name="Pantalla_Formulario_Registro" component={Pantalla_Formulario_Registro} />
+        <Stack.Screen name="Video" component={VideoScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
