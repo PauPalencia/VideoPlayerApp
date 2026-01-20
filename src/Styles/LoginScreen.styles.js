@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#515151',
   },
   scrollContainer: {
     flexGrow: 1,
@@ -21,13 +21,13 @@ const styles = StyleSheet.create({
   },
   // CONTORNO CON FONDO #CBD5E1
   formWrapper: {
-    backgroundColor: '#CBD5E1',
+    backgroundColor: '#25552bdd',
     borderRadius: 12,
     padding: 2,
     marginHorizontal: 10,
   },
   formContainer: {
-    backgroundColor: '#CBD5E1',
+    backgroundColor: '#4a9f55dd',
     borderRadius: 10,
     padding: 20,
   },
@@ -79,13 +79,13 @@ const styles = StyleSheet.create({
     marginVertical: 15,
   },
   forgotPasswordText: {
-    color: '#007AFF',
+    color: '#004fa3',
     fontSize: 16,
     textAlign: 'center',
     fontWeight: '500',
   },
   loginButton: {
-    backgroundColor: '#B3261E',
+    backgroundColor: '#1D5128',
     borderRadius: 12,
     paddingVertical: 16,
     alignItems: 'center',
@@ -134,14 +134,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   modalContainer: {
-    backgroundColor: '#CBD5E1',
+    backgroundColor: '#1D5128',
+    borderWidth: 2,
+    borderColor: '#1b3019',
     borderRadius: 12,
     padding: 2,
-    marginHorizontal: 20,
+    marginHorizontal: 30,
     width: '80%',
   },
   modalContent: {
-    backgroundColor: '#fff',
+    backgroundColor: '#515151',
     borderRadius: 10,
     padding: 24,
     alignItems: 'center',
@@ -149,19 +151,18 @@ const styles = StyleSheet.create({
   modalTitle: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#333',
-    marginBottom: 12,
+    color: '#ffffff',
     textAlign: 'center',
   },
   modalText: {
     fontSize: 16,
-    color: '#333',
+    color: '#c9c9c9',
     textAlign: 'center',
     marginBottom: 20,
     lineHeight: 22,
   },
   modalButton: {
-    backgroundColor: '#B3261E',
+    backgroundColor: '#1D5128',
     borderRadius: 8,
     paddingVertical: 12,
     paddingHorizontal: 24,
@@ -169,7 +170,7 @@ const styles = StyleSheet.create({
     minWidth: 120,
   },
   modalButtonText: {
-    color: '#fff',
+    color: '#dddddd',
     fontSize: 16,
     fontWeight: '600',
   },
@@ -178,7 +179,7 @@ const styles = StyleSheet.create({
     top: 50,
     left: 20,
     zIndex: 10,
-    backgroundColor: "#B3261E",
+    backgroundColor: "#1D5128",
     padding: 8,
     borderRadius: 15,
     shadowColor: "#000",

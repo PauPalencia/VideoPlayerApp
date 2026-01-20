@@ -14,7 +14,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 import styles from "../Styles/Style_Formulario_Registro";
-import logo from "../../assets/Logo_DangerZone.png";
+import logo from "../../assets/splash-icon.png";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { doc, setDoc } from "firebase/firestore";
 import { auth, db } from "../../Firebase";

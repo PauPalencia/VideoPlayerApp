@@ -17,10 +17,10 @@ export default function Identificacio() {
   return (
     <View style={styles.container}>
       <Image
-        source={require('../../assets/danger_zone.png')}
-        style={styles.logo}
+        source={require('../../assets/splash-icon.png')}
+      style={styles.logo}
         resizeMode="contain"
-      />
+      />  
 
       <TouchableOpacity 
         style={styles.button}

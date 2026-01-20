@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff7f7',
+    backgroundColor: '#515151',
     alignItems: 'center',
     justifyContent: 'flex-start', // col·loca el contingut cap amunt
     paddingTop: 90, // distància des de la part superior

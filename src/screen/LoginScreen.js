@@ -152,7 +152,7 @@ const LoginScreen = () => {
         {/* Logo real de la aplicación */}
         <View style={styles.logoContainer}>
           <Image 
-            source={require('../../assets/Logo_DangerZone.png')}
+            source={require('../../assets/splash-icon.png')}
             style={styles.logo}
             resizeMode="contain"
           />

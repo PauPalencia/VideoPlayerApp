@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import HomeScreen from './src/screens/HomeScreen';
-import VideoScreen from './src/screens/VideoScreen';
+// import HomeScreen from './src/screen/HomeScreen';
+// import VideoScreen from './src/screen/VideoScreen';
 
 // Importar las nuevas pantallas
 import Identificacio from './src/screen/identificacio';
@@ -18,7 +18,6 @@ export default function App() {
         <Stack.Screen name="Identificacio" component={Identificacio} />
         <Stack.Screen name="LoginScreen" component={LoginScreen} />
         <Stack.Screen name="Pantalla_Formulario_Registro" component={Pantalla_Formulario_Registro} />
-        <Stack.Screen name="Video" component={VideoScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

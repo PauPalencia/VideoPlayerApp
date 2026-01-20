@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 export default StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#FEF7FF",
+    backgroundColor: "#1D5128",
     alignItems: "center",
     justifyContent: "center",
   },
@@ -13,7 +13,7 @@ export default StyleSheet.create({
     top: 50,
     left: 20,
     zIndex: 10,
-    backgroundColor: "#B3261E",
+    backgroundColor: "#1D5128",
     padding: 8,
     borderRadius: 15,
     shadowColor: "#000",
@@ -34,7 +34,7 @@ export default StyleSheet.create({
   logoPlaceholder: {
     width: 200,
     height: 10,
-    backgroundColor: "#DDD",
+    backgroundColor: "#515151",
     justifyContent: "center",
     alignItems: "center",
   },
@@ -46,9 +46,10 @@ export default StyleSheet.create({
 
   formContainer: {
     width: "85%",
-    backgroundColor: "#CBD5E1",
+    backgroundColor: "#4a9f55dd",
     padding: 20,
     borderRadius: 15,
+    borderWidth: 1,
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2,
@@ -100,7 +101,7 @@ export default StyleSheet.create({
   },
 
   registerButton: {
-    backgroundColor: "#B3261E",
+    backgroundColor: "#1D5128",
     padding: 12,
     borderRadius: 10,
     alignItems: "center",
@@ -121,7 +122,7 @@ export default StyleSheet.create({
   modalContent: {
     width: "85%",
     maxHeight: "80%",
-    backgroundColor: "#FFF8F7", // fondo blanco que antes faltaba
+    backgroundColor: "#515151", // fondo blanco que antes faltaba
     borderRadius: 20,
     padding: 20,
     shadowColor: "#000",
@@ -158,7 +159,7 @@ export default StyleSheet.create({
   },
 
   modalButton: {
-    backgroundColor: "#B3261E",
+    backgroundColor: "#1D5128",
     borderRadius: 8,
     paddingVertical: 10,
     paddingHorizontal: 20,
@@ -189,7 +190,7 @@ export default StyleSheet.create({
     alignItems: "center",
     paddingTop: 100,  // sube todo un poco
     paddingBottom: 60,
-    backgroundColor: "#FEF7FF",
+    backgroundColor: "#515151",
   },
 
 
